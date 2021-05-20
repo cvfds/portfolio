@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table caption{
+	display: none;
+
+}
+body{
+	background-color: #dbc07b;
+
+}
+.wrapper{
+	width: 990px;
+	height: auto;
+	overflow: hidden;
+}
+#header{
+	position: relative;
+	padding-top: 14px;
+	height: 154px;
+	background: url(/images/bg_top.jpg) no-repeat 0 0;
+}
+#logo{
+	position: absolute;
+	left: 189px;
+	top: 59px;
+}
+#header .location{
+	text-align: right;
+}
+#header  .location li{
+	display: inline-block;
+}
+#header  .location li a{
+	display: block;
+	margin: 3px 0;
+	padding: 0 2px 0 8px;
+	font-family: "돋움",Dotum,sans-serif;
+} 
+#contents .banner_zone{
+	position: relative;
+	float: left;
+	width: 189px;
+	height: 673px;
+	background: url(/images/bg_banner.jpg);
+
+}
+#contents .banner_zone .banner_text1{
+	position: absolute;
+	left: 123px;
+	top: 67px;
+	width: 40px;
+	height: 310px;
+	-webkit-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+#contents .banner_zone .banner_text2{
+	position: absolute;
+	left: 72px;
+	top: 160px;
+	width: 36px;
+	height: 310px;
+	-webkit-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
+.menu{
+	text-align: center;
+	width: 250px;
+	height: 700px;
+	background-color: white;
+}
+.menu_photo{
+	text-align: center;
+}
+.menu_photo > img{
+	width: 215px;
+}
+#LNB{
+text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+#LNB li {
+	display: inline-block;
+	text-align: right;
+	width: 180px;
+	border-bottom: 1px Dashed black;
+}
+.contents > .title{
+	text-align: center;
+	background-color: white;
+	width: 600px;
+	position: relative;
+	bottom: 60px;
+}
+.contents > .title>img{
+	width: 98%;
+}
+.introduce{
+	position: relative;
+	display: flex;
+	bottom: 50px;
+}
+.introduce > .photo{
+	height: 220px;
+}
+.introduce > .photo>img{
+	width: 280px;
+	height: 220px;
+}
+.introduce >.description{
+	margin-left: 5px;
+}
+.introduce >.description > dl >dd{
+	font-size: 12.5px;
+}
+.description >dl> dt{
+	font-weight: bold;
+	color: chocolate;
+	font-size: 12.5px;
+	margin-bottom: 15px;
+
+}
+.contents{
+	background: url(/images/bg_contents.jpg) no-repeat 0 0;
+	background-position: bottom;
+	width: 620px;
+	background-color: white;
+}
+.news_zone{
+	position: relative;
+	
+	display: flex;
+	font-size: 14px;
+}
+#contents{
+	display: flex;
+}
+
+/* background: url(/images/bg_contents.jpg); */
+#contents .contents .gallery .title{
+	height: 40px;
+}
+#contents .contents .gallery .photo_zone{
+	width: 570px;
+	padding: 7px 10px;
+	height: 90px;
+	text-align: center;
+	border: 3px solid #d8d8d8;
+}
+#contents .contents .gallery .photo_zone a{
+	display: inline-block;
+	margin-left: 30px;
+}
+#contents .contents .gallery .photo_zone a:first-child{
+	margin-left: 0;
+}
+#contents .contents .footer{
+	margin-top: 230px;
+	line-height: 1.4;
+	text-align: right;
+	font-family: "돋움",Dotum,sans-serif;
+	font-style: 12px;
+	font-size: 12px;
+}
+#contents .contents .footer a{
+	color: #000;
+}
+
